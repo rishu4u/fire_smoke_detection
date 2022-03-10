@@ -1,0 +1,6 @@
+models/fire/config_infer_primary_yolov5m.txt filter=lfs diff=lfs merge=lfs -text
+models/fire/labels.txt filter=lfs diff=lfs merge=lfs -text
+models/fire/best-mar-3.weights filter=lfs diff=lfs merge=lfs -text
+models/fire/best-mar-3.weights.enc filter=lfs diff=lfs merge=lfs -text
+models/Trackers/DCF filter=lfs diff=lfs merge=lfs -text
+models/Trackers/KLT filter=lfs diff=lfs merge=lfs -text
