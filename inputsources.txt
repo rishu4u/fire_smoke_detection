@@ -1,0 +1,1 @@
+file:///home/srv/deepstream-smoke-fire-detection-app/fire.mp4
