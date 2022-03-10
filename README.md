@@ -2,11 +2,11 @@
 
 Fire and Smoke at School,Workplace or any infrastructure is very common.  This app, built on Nvidia's Deepsteam SDK, which is a complete streaming analytics toolkit for AI-based multi-sensor processing, video and image understanding, helps individuals in early detection of  Fire and Smoke, through CCTV footage. Post which, quick and appropirate action can be taken.
 
-![HandgunDetection2](misc/guns.png)
+![Fire Smoke Detection](misc/fire.png)(misc/fire-smoke.png)
 
 ## Citations
 
-* [AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
+* [ultralytics](https://github.com/ultralytics)
 * [aj-ames/Hermes-Deepstream](https://github.com/aj-ames/Hermes-Deepstream.git)
 
 ## Index
@@ -76,9 +76,9 @@ Next, clone the repository
 
 ```sh
 # Using HTTPS
-git clone https://github.com/varun299/deepstream-handgun-app.git
+git clone https://github.com/rishu4u/fire_smoke_detection.git
 # Using SSH
-git clone git@github.com:varun299/deepstream-handgun-app.git
+git clone git@github.com:rishu4u/fire_smoke_detection.git
 ```
 
 Now, enable lfs and pull the yolo weights
@@ -98,7 +98,7 @@ Firstly, we must build the application by running the following command:
 make clean && make -j$(nproc)
 ```
 
-This will generate the binary called `handgun-app`. This is a one-time step and you need to do this only when you make source-code changes.
+This will generate the binary called `firedetection-app`. This is a one-time step and you need to do this only when you make source-code changes.
 
 Next, create a file called `inputsources.txt` and paste the path of videos or rtsp url of CCTV IP cameras.
 
