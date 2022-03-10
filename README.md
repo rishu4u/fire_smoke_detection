@@ -1,8 +1,8 @@
-# Handgun Detection App
+# Smoke and Fire Detection App
 
 Fire and Smoke at School,Workplace or any infrastructure is very common.  This app, built on Nvidia's Deepsteam SDK, which is a complete streaming analytics toolkit for AI-based multi-sensor processing, video and image understanding, helps individuals in early detection of  Fire and Smoke, through CCTV footage. Post which, quick and appropirate action can be taken.
 
-![Fire Smoke Detection](misc/fire.png)(misc/fire-smoke.png)
+![Fire Smoke Detection](misc/fire.png) (misc/fire-smoke.png)
 
 ## Citations
 
